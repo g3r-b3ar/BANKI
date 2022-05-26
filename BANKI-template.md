@@ -22,17 +22,17 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 ### Questions
 
 - [ ] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** As an avid kayaker I noticed the community lacked a central hub to find information about drop ins, pull outs, water conditions, etc..
+  - **Action:** Created a web application that allowed users to input geographical locations, ratings, photos, and other important data along with using public apis that monitored water conditions in the area.
+  - **Result:** X amount of users now use the app for their kayaking adventures and the app is gaining new users daily.
 - [ ] Tell me about a time you had to work on several projects at once. How did you handle this?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** While working in the engineering industry, it wasn't uncommon to have a large load of plans that would be dumped on us out of no where.
+  - **Action:** Delegating the work that played to each of my coworkers strengths would always yield good results. When one of us completed our set of tasks they would jump in and help out another coworker complete their workload.
+  - **Result:** Our supervisors praised our team for getting so much done in short amount of time. They always knew they could count on us to get the job done.
 - [ ] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** As a coax quality control trainer, I often had to train individuals on what good design strategies looked like and made sure a lot of important details were input to our system accurately. During one of my first training sessions I neglected to cover a few items because I was shadowing the trainee and not used to the trainees process.
+  - **Action:** I took a different approach and had the trainee shadow me while I completed a number of live projects and had them take notes, before letting them review any further projects.
+  - **Result:** The trainee had lots of questions and took detailed notes on how my process works. He used some of my suggestions and came up with a system that worked for him and became a valued asset to our team
 - [ ] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
   - **Cause:**
   - **Action:**
