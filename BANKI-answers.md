@@ -36,7 +36,7 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 - [x] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
   - **Cause:** I was in a situation where I was leading a team and various team members brought it to my attention that they had issues with a couple of coworkers not staying on track of thier work tasks.
   - **Action:** I talked to each team member and noticed that each team member had different motivations. I laid out the teams goals for the week and communicated with that meeting these goals would provide an opportunity for incentives of leaving early or working overtime helping out a different deparatment.
-  - **Result:** These incentives made each team member feel that hey had a voice, which kept the team on track and motivated as well as keeping the team productive and morale high.
+  - **Result:** These incentives made each team member feel that hey had a voice, which kept the team on track and motivated as well as keeping the team morale high and thus ensuring we were productive.
 - [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
   - **Cause:**
   - **Action:**
