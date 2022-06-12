@@ -22,21 +22,21 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 ### Questions
 
 - [x] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
-  - **Cause:** At a previous company we had project managers assigned to several different teams where workload would fluctuate quite a bit.
-  - **Action:** I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool.
-  - **Result:** This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
+  - **Cause:** At a previous company I was tasked with keeping track of hundreds of company issued computers and their users. The current way of keeping track of things was dated and posed lots of problems
+  - **Action:** I noticed that our current ticketing system had the functionality to keep track of company inventory and provided additional features to make task easier.
+  - **Result:** I brought it to the attention of my supervisor and we started migrating users from the old system to the new. The new system made it easier to see which inventory was available to issue to new users and find support for each users system without having the system physically.
 - [x] Tell me about a time you had to work on several projects at once. How did you handle this?
-  - **Cause:** I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
-  - **Action:** I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told them what to look out for.
-  - **Result:** While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
+  - **Cause:** At a previous company it was not uncommon for my team to recieve multiple projects of varying sizes with different due dates at one time.
+  - **Action:** Keeping track of which projects had higher priority, communicating with team members every morning to varify tasks or spot problems, and delegating tasks to team members according to their strengths is what kept us on on track.
+  - **Result:** With the strong communication from the team and clear goals set, we made sure projects were delivered on time which lead to very satisfied clients and high team morale.
 - [x] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
-  - **Cause:** I had a direct report working on building a client quote within a spreadsheet template.
-  - **Action:** I explained to them how to use and fill out the template and then left them to finish it.
-  - **Result:** After a few hours I came to see what the final result was and found that they only partially completed it and had many mistakes. What I did then and with subsequent reports was to have them work on the quote in front of me for 30 minutes so that I could guide them and allow them to ask question. I found that technique brought people up to speed more quickly.
-- [ ] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** During the early stages at previous opportunity, my team was given multiple projects located in different regions, each requiring that they be done to their own specific standard. As the newest member of the team I felt like I had to prove myself to be a valuable team memeber. I didn't ask any questions and as a result I used the wrong standard for the portion I worked on.
+  - **Action:** After learning from this mistake, I realized the keeping an open line of communication is key when working in a team especially if you are new. Going forward I asked lots of questions and took very detailed notes, which in turn helped other colleagues who had the same question
+  - **Result:** As a result, we kept open lines of communication, which helped prevent incidents like that from happening in the future.
+- [x] Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?
+  - **Cause:** I was in a situation where I was leading a team and various team members brought it to my attention that they had issues with a couple of coworkers not staying on track of thier work tasks.
+  - **Action:** I talked to each team member and noticed that each team member had different motivations. I laid out the teams goals for the week and communicated with that meeting these goals would provide an opportunity for incentives of leaving early or working overtime helping out a different deparatment.
+  - **Result:** These incentives made each team member feel that hey had a voice, which kept the team on track and motivated as well as keeping the team productive and morale high.
 - [ ] Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?
   - **Cause:**
   - **Action:**
@@ -212,8 +212,8 @@ Normalize:
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+	font-size: 2em;
+	margin: 0.67em 0;
 }
 ```
 
@@ -228,8 +228,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 ```
 
@@ -305,9 +305,9 @@ h6 {
   - **Example:** An example of using print and making all the text black:
   ```css
   @media print {
-    body {
-      color: black;
-    }
+  	body {
+  		color: black;
+  	}
   }
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
@@ -388,13 +388,13 @@ h6 {
 
 ```css
 .my-class {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 @media (min-width: 600px) {
-  .my-class {
-    font-size: 24px;
-  }
+	.my-class {
+		font-size: 24px;
+	}
 }
 ```
 
@@ -409,12 +409,12 @@ h6 {
   - **Example:**
   ```html
   <img
-    src="/images/test-1600.jpg"
-    srcset="
-      /images/test-400.jpg   400w,
-      /images/test-800.jpg   800w,
-      /images/test-1200.jpg 1200w
-    "
+  	src="/images/test-1600.jpg"
+  	srcset="
+  		/images/test-400.jpg   400w,
+  		/images/test-800.jpg   800w,
+  		/images/test-1200.jpg 1200w
+  	"
   />
   ```
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions/
@@ -431,13 +431,13 @@ h6 {
 
 ```html
 <div id="container">
-  <div class="tile"></div>
+	<div class="tile"></div>
 </div>
 <script>
-  container.addEventListener(
-    'click',
-    (event) => (event.target.style.backgroundColor = bgChange())
-  );
+	container.addEventListener(
+		'click',
+		event => (event.target.style.backgroundColor = bgChange())
+	)
 </script>
 ```
 
@@ -450,9 +450,9 @@ h6 {
 
 ```javascript
 class MyThing {
-  constructor(passThisIn) {
-    this.passThisIn = passThisIn;
-  }
+	constructor(passThisIn) {
+		this.passThisIn = passThisIn
+	}
 }
 ```
 
@@ -465,24 +465,24 @@ class MyThing {
 
 ```javascript
 function Parent() {
-  this.name = 'Parent';
+	this.name = 'Parent'
 }
 Parent.prototype.greet = function () {
-  console.log('Hello from ' + this.name);
-};
-const child = Object.create(Parent.prototype);
+	console.log('Hello from ' + this.name)
+}
+const child = Object.create(Parent.prototype)
 child.cry = function () {
-  console.log('waaaaaahhhh!');
-};
-child.cry();
+	console.log('waaaaaahhhh!')
+}
+child.cry()
 // waaaaaahhhh!
-child.greet();
+child.greet()
 // hello from Parent
-child.constructor;
+child.constructor
 // ƒ Parent() {
 // this.name = 'Parent';
 // }
-child.constructor.name;
+child.constructor.name
 // 'Parent'
 ```
 
@@ -509,14 +509,14 @@ child.constructor.name;
 
 ```javascript
 function init() {
-  var name = 'Mozilla'; // name is a local variable created by init
-  function displayName() {
-    // displayName() is the inner function, a closure
-    alert(name); // use variable declared in the parent function
-  }
-  displayName();
+	var name = 'Mozilla' // name is a local variable created by init
+	function displayName() {
+		// displayName() is the inner function, a closure
+		alert(name) // use variable declared in the parent function
+	}
+	displayName()
 }
-init();
+init()
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
@@ -527,20 +527,20 @@ init();
     `.forEach()`:
 
 ```javascript
-const a = [1, 2, 3];
+const a = [1, 2, 3]
 const doubled = a.forEach((num, index) => {
-  // Do something with num and/or index.
-});
+	// Do something with num and/or index.
+})
 // doubled = undefined
 ```
 
 `.map()`:
 
 ```javascript
-const a = [1, 2, 3];
-const doubled = a.map((num) => {
-  return num * 2;
-});
+const a = [1, 2, 3]
+const doubled = a.map(num => {
+	return num * 2
+})
 // doubled = [2, 4, 6]
 ```
 
@@ -552,8 +552,8 @@ const doubled = a.map((num) => {
 
 ```javascript
 setTimeout(function () {
-  console.log('Hello world!');
-}, 1000);
+	console.log('Hello world!')
+}, 1000)
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
@@ -576,16 +576,16 @@ setTimeout(function () {
 
 ```javascript
 function Person(name) {
-  this.name = name;
+	this.name = name
 }
 
-var person = Person('John');
-console.log(person); // undefined
-console.log(person.name); // Uncaught TypeError: Cannot read property 'name' of undefined
+var person = Person('John')
+console.log(person) // undefined
+console.log(person.name) // Uncaught TypeError: Cannot read property 'name' of undefined
 
-var person = new Person('John');
-console.log(person); // Person { name: "John" }
-console.log(person.name); // "john"
+var person = new Person('John')
+console.log(person) // Person { name: "John" }
+console.log(person.name) // "john"
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
@@ -608,9 +608,9 @@ console.log(person.name); // "john"
 
 ```javascript
 if ('geolocation' in navigator) {
-  // Can use navigator.geolocation
+	// Can use navigator.geolocation
 } else {
-  // Handle lack of feature
+	// Handle lack of feature
 }
 ```
 
@@ -652,17 +652,17 @@ if ('geolocation' in navigator) {
 
 ```html
 <style>
-  body * {
-    margin: 10px;
-    border: 1px solid blue;
-  }
+	body * {
+		margin: 10px;
+		border: 1px solid blue;
+	}
 </style>
 <form onclick="alert('form')">
-  FORM
-  <div onclick="alert('div')">
-    DIV
-    <p onclick="alert('p')">P</p>
-  </div>
+	FORM
+	<div onclick="alert('div')">
+		DIV
+		<p onclick="alert('p')">P</p>
+	</div>
 </form>
 ```
 
@@ -688,12 +688,12 @@ if ('geolocation' in navigator) {
   - **Example:**
 
 ```javascript
-1 == '1'; // true
-1 == [1]; // true
-1 == true; // true
-0 == ''; // true
-0 == '0'; // true
-0 == false; // true
+1 == '1' // true
+1 == [1] // true
+1 == true // true
+0 == '' // true
+0 == '0' // true
+0 == false // true
 ```
 
 - **Source:** https://www.frontendinterviewhandbook.com/javascript-questions/
@@ -713,8 +713,8 @@ if ('geolocation' in navigator) {
   - **Example:**
 
 ```javascript
-const age = 26;
-const beverage = age >= 21 ? 'Beer' : 'Juice';
+const age = 26
+const beverage = age >= 21 ? 'Beer' : 'Juice'
 ```
 
 - **Source:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
@@ -1031,10 +1031,10 @@ const beverage = age >= 21 ? 'Beer' : 'Juice';
 
 ```js
 function factorial(num) {
-  if (num === 1) {
-    return num;
-  }
-  return num * factorial(num - 1);
+	if (num === 1) {
+		return num
+	}
+	return num * factorial(num - 1)
 }
 ```
 
