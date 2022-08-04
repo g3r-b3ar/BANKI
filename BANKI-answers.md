@@ -62,13 +62,13 @@ Most of the behavioral questions should be answered in the CAR format. At least 
   - **Action:**
   - **Result:**
 - [ ] Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** At my last company, there was an coworker that wasn't completing assignments in a timely manner. I knew how many taks he could complete because I had trained him.
+  - **Action:** I took some time to check on him and ask how he was feeling. He mentioned that he was struggling to stay focused because of death in the family.
+  - **Result:** It wasn't my place to tell our manager, but I encouraged the coworker to discuss it with them instead. The manager responded kindly and the coworker took the rest of the week off. The rest of the team helped cover the greiving coworkers tasks.
 - [ ] Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?
-  - **Cause:**
-  - **Action:**
-  - **Result:**
+  - **Cause:** As a member of the oil and gas engineering team we were constantly put under pressure to complete projects on time. One time they gave us a project that usually takes 1 week to complete and gave us a deadline of 3 days.
+  - **Action:** We set up a system to delegate the work that played to each designers strengths. I stayed focused and created a system that streamlined the process to make my portion of the project run efficiently and accurately.
+  - **Result:** Being one of the first ones to complete their tasks, I helped other members of the team by looking at their process and coming up with a streamline strategy that would work for them. We did end up making the deadline, but ended up working 32 hours straight on the 3rd day to get the project out the door.
 - [ ] Tell me about yourself.
   - **Cause:**
   - **Action:**
